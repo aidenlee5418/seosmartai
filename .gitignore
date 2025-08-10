@@ -1,0 +1,24 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+.cache/
+.vercel/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env & local
+.env
+.env.*
+!.env.example
+
+# Mac / Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
