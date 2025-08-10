@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 import { ArrowLeft, Zap, CheckCircle } from 'lucide-react';
 import { supabase } from '../utils/supabase/client';
 import { projectId, publicAnonKey } from '../utils/supabase/info';
-import { toast } from "sonner@2.0.3";
+import { Toaster, toast } from './ui/sonner'
 
 interface AuthPageProps {
   onUserChange: (user: any, session: any) => void;
